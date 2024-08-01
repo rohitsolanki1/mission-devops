@@ -4,4 +4,4 @@ FROM nginx:latest
 # Copy the HTML file to the Nginx HTML directory
 COPY . /usr/share/nginx/html/
 
-EXPOSE 3000
+EXPOSE 80
